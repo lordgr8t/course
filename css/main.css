@@ -40,7 +40,8 @@ body.login input{
 /*main*/
 body.main .container,
 body.lesson .container{
-	height: calc(100vh - 90px);
+	min-height: calc(100vh - 90px);
+	padding-bottom: 50px;
 }
 
 header{
