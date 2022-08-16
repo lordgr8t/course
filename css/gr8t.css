@@ -1,0 +1,120 @@
+.jcsb{
+	justify-content: space-between;
+}
+.jcsa{
+	justify-content: space-around;
+}
+.jcc{
+	justify-content: center;
+}
+.w100{
+	width: 100vw;
+}
+.aic{
+	align-items: center;
+}
+.tac{
+	text-align: center;
+}
+.tar{
+	text-align: right;
+}
+.tal{
+	text-align: left;
+}
+.m0a{
+	margin: 0 auto;
+}
+.dn{
+	display: none;
+}
+.db{
+	display: block;
+}
+.a_none{
+	display: block;
+}
+.a-block{
+	display: none;
+}
+.a-flex{
+	display: none;
+}
+.pos-r{
+	position: relative;
+}
+.pos-a{
+	position: absolute;
+}
+.pointer{
+	cursor: pointer;
+}
+.tdu{
+	text-decoration: underline;
+}
+.m0-a{
+	margin: 0 auto;
+}
+.f-right{
+	float: right;
+}
+.f-left{
+	float: left;
+}
+
+.c000{
+	color: #000;
+}
+.cfff{
+	color: #fff;
+}
+/*reset*/
+input:active, input:focus, button:active, button:focus,
+textarea:focus, button:active, button:focus{
+	outline: none !important;
+}
+
+
+/*settings scroll*/
+
+::-webkit-scrollbar {
+	width: 6px; /* ширина для вертикального скролла */
+	height: 4px; /* высота для горизонтального скролла */
+	background-color: gray;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+	background-color: #000;
+	border-radius: 9em;
+	box-shadow: inset 1px 1px 10px #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #fff;
+}
+
+/* Стрелки */
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+	display: none;
+	
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+	display: none;
+	
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement {
+	display: none;
+	
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment {
+	display: none;
+}
+
+.hide{
+	display: none;
+}
