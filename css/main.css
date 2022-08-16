@@ -16,6 +16,13 @@
 	font-size: 15px;
 	font-weight: 300;
 }
+a{
+	color: #000;
+}
+a:hover{
+	text-decoration: none;
+	color: #000;
+}
 /*login*/
 
 body.login .container{
@@ -29,3 +36,80 @@ body.login input{
 	padding-left: 15px;
 	font-weight: 300;
 }
+
+/*main*/
+body.main .container{
+	height: calc(100vh - 90px);
+}
+
+header{
+	height: 90px;
+	background: #414141;
+	max-width: 1000px;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: 300;
+	font-size: 15px;
+	padding: 0 50px;
+	align-items: center;
+}
+.header-wrapper{
+	height: 90px;
+}
+.block{
+	margin: 0 auto;
+	max-width: 760px;
+	background: #fff;
+	border-radius: 20px;
+	height: 40px;
+	margin-bottom: 18px;
+}
+.block-num{
+	border-radius: 21px 0px 0px 21px;
+	height: 40px;
+	align-items: center;
+	font-weight: 300;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	padding-top: 5px;
+}
+.block-name, .block-time{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.block-btn a:hover{
+	text-decoration: underline;
+	transition: 1s;
+}
+.block-btn a{
+	color: #fff;
+	transition: 1s;
+}
+.block-btn{
+	border-radius: 0 21px 21px 0;
+	height: 40px;
+	align-items: center;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 9px;
+}
+
+
+.block-active .block-btn, .block-active .block-num{
+	background: rgba(36, 93, 239, 0.63);
+}
+
+.block-passed .block-btn, .block-passed .block-num{
+	background: rgba(36, 239, 105, 0.63);
+}
+
+
+.block-close .block-btn, .block-close .block-num{
+	background: rgba(154, 154, 154, 0.63);
+}
+
+
+
