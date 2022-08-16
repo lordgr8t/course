@@ -1,0 +1,31 @@
+*{
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+.container{
+	max-width: 1000px;
+	padding: 0 20px;
+}
+.container-bg{
+	background: rgba(101, 134, 253, 0.2);
+}
+.btn{
+	background: rgba(36, 93, 239, 0.63);
+	border-radius: 8px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+}
+/*login*/
+
+body.login .container{
+	height: 100vh;
+	padding-top: calc(50vh - 55px);;
+}
+body.login input{
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 15px;
+	padding-left: 15px;
+	font-weight: 300;
+}
