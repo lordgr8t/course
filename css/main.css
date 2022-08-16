@@ -38,7 +38,8 @@ body.login input{
 }
 
 /*main*/
-body.main .container{
+body.main .container,
+body.lesson .container{
 	height: calc(100vh - 90px);
 }
 
@@ -106,10 +107,14 @@ header{
 	background: rgba(36, 239, 105, 0.63);
 }
 
-
 .block-close .block-btn, .block-close .block-num{
 	background: rgba(154, 154, 154, 0.63);
 }
 
 
+/*lesson*/
 
+video{
+	max-width: 800px;
+	margin: 0 auto;
+}
