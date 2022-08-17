@@ -9,6 +9,8 @@ if ($_SESSION["user"]) {
 	header("Location: index.php");
 }
 
+$title = "Главная";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

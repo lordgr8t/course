@@ -7,6 +7,9 @@ include('vendor/db.php');
 if ($_SESSION["user"]) {
 	header("Location: main.php");
 }
+
+$title = "Логин";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

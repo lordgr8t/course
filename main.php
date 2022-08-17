@@ -15,6 +15,9 @@ if ($_SESSION["user"]) {
 	header("Location: index.php");
 }
 
+$title = "Главная";
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -68,15 +71,20 @@ if ($_SESSION["user"]) {
 					<div class="col-2 block-num"><?php echo "#" . $item['num']; ?></div>
 					<div class="col-6 block-name"><?php echo $item["name"] ?></div>
 					<div class="col-2 block-time"><?php echo "~" . $item["time"] . "мин" ?></div>
-					<div class="col-2 block-btn"><a href="#">
-						<?php if ($needlevel == $level) {
-							echo "Пройти";
-						}elseif ($needlevel > $level) {
-							echo "Недоступно";
-						}elseif($needlevel < $level){
-							echo "Повторить";
-						} ?>
-					</a></div>
+					<div class="col-2 block-btn">
+
+						<a href="<?php echo "part.php?" . $item['num']; ?>">
+							<?php if ($needlevel == $level) {
+								echo "Пройти";
+							}elseif ($needlevel > $level) {
+								echo "Недоступно";
+							}elseif($needlevel < $level){
+								echo "Повторить";
+							} ?>
+						</a>
+
+
+					</div>
 				</div>
 
 			<?php } ?>

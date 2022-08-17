@@ -1,0 +1,1 @@
+$('.block-close .block-btn a').removeAttr("href");
